@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Saudacoes</title>
+        <!--CSS-->
+        <style type="text/css">
+            p, h1, h2, div{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+                font-size: 40px;
+            }
+            body {
+                background-image: url('gato16.png');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+        </style>
+        <body>
+            <div><!--COLOCAR PLANO DE FUNDO-->
+            <img src="gato17.png" width="40%" height="50%">
+            </div>
+            <h1 id="demo" onclick="myFunction()">Aperte aqui.</h1>
+            <script>
+            function myFunction() { //Funcao para mudar a frase no clique do usuario
+
+                document.getElementById("demo").innerHTML = "Vamos nos aventurar no cardapio!!! Clique abaixo";
+                }
+            </script>
+            <a href="sabado.html"><h2>✅</h2></a> <!--Codigo para ir para a outra pagina-->
+        </body>
+    
+</html>
